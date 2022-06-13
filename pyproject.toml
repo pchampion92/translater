@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "translater"
+version = "0.1.0"
+description = ""
+authors = ["Paul Champion <paul.champion@artelys.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+tensorflow = "^2.9.1"
+matplotlib = "^3.5.2"
+tensorflow-datasets = "^4.6.0"
+tensorflow-text = "^2.9.0"
+tensorflow-io = "^0.26.0"
+pandas = "^1.4.2"
+plotly = "^5.8.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
